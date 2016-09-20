@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Question 0 of 10"
+        android:text="@string/question"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/questionNumberTextView"
@@ -34,7 +34,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guess Country"
+        android:text="@string/guess_country"
         android:id="@+id/guessCountryTextView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -142,5 +142,6 @@
         android:id="@+id/answerTextView"
         android:layout_below="@+id/row4LinearLayout"
         android:layout_centerHorizontal="true"
-        android:text="answer goes here" />
+        android:text="answer goes here"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
