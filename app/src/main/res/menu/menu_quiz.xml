@@ -2,9 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="edu.orangecoastcollege.cs273.jcabrera31.flagquiz.QuizActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
+
+    <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_24dp"
+        app:showAsAction="always"/>
 </menu>
